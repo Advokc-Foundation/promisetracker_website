@@ -1,0 +1,152 @@
+.pe-con{
+    height: 300px;
+    width: 260px;
+    background-color: #790E0E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+
+}
+
+.inner-pe{
+    height:95%;
+    width: 93%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    
+}
+
+.pe-pic{
+    height: 65%;
+    width: 100%;
+    background-color: pink;
+    border-radius: 20px;
+}
+
+.pe-details{
+    height: 20%;
+    width: 100%;
+}
+
+.pe-linke{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.pe-details #p11{
+    font-family: 'hel';
+    color: white;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.pe-details #p22 {
+    font-size: 12px;
+    font-family: 'hel-ord';
+    color: white;
+    line-height: 10px;
+
+}
+
+.pe-cir{
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-color:#FFFFFF21;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+    font-family: 'hel';
+    background-image: url('../assets/bxl_linkedin.svg');
+    background-repeat: no-repeat;
+    background-size:1.2rem;
+    background-position:0.2rem;
+}
+
+
+@media(max-width:1400px) {
+    .pe-con {
+        width: 250px;
+    }
+}
+
+@media(max-width:1336px) {
+    .pe-con {
+        width: 230px;
+    }
+}
+@media(max-width:1264px) {
+    .pe-con {
+        width: 215px;
+    }
+}
+@media(max-width:1144px) {
+    .pe-con {
+        width: 205px;
+    }
+}
+@media(max-width:1080px) {
+    .pe-con {
+        width: 190px;
+    }
+}
+@media(max-width:979px) {
+    .pe-con {
+        width: 180px;
+    }
+    
+}
+@media(max-width:979px){
+    .pe-details #p11{
+        font-size: 14px;
+    }
+}
+@media(max-width:931px) {
+    .pe-con {
+        width: 170px;
+    }
+
+}
+@media(max-width:860px) {
+    .pe-con {
+        width: 170px;
+    }
+
+}
+@media(max-width:769px){
+
+}
+
+
+@font-face {
+    font-family: 'inter';
+    src: url('../fonts/Inter-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'hel';
+    src: url('../fonts/HelveticaNeueMedium.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'hel-ord';
+    src: url('../fonts/HelveticaNeueLight.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'bodoni-bold';
+    src: url('../fonts/bodoni-72-bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'bodoni-itl';
+    src: url('../fonts/Bodoni-Italic.otf') format('opentype');
+}

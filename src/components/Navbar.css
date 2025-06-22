@@ -1,0 +1,352 @@
+.navbar {
+    min-height: 13vh;
+    /* 190px */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0.0625rem -0.25rem 0.25rem 0 #DBDBDB40 inset;
+}
+
+.title-contain {
+    height: auto;
+    /* 50% of navbar height */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 10px;
+}
+.btn-div button:hover{
+    cursor: pointer;
+}
+#title-text {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo-div {
+    height: 35px;
+    /* 42px */
+    width: 50px;
+    /* 54px */
+    margin-right: 5px;
+    /* 10px */
+    background-image: url('../assets/promiseLOGO.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#text-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    /* 32px */
+    color: #0C1821;
+    font-weight: 700;
+    /* 7px */
+    font-family: barlow;
+    background-image: url('../assets/PROMISETRACKERLogo.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 21px;
+    /* 47px */
+    width: 200px;
+    /* 239px */
+}
+
+.con-div {
+    height: auto;
+    /* 50% of navbar height */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.con-contain {
+    height: auto;
+    width: auto;
+    /* 1250px */
+    display: flex;
+    align-items: center;
+    gap:130px;
+    margin-top: 1.25rem;
+    /* 20px */
+}
+
+.date-div {
+    height: 15px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    font-size:16px ;
+    font-family:'hel' ;
+    line-height:18px ;
+
+
+}
+
+.menu-div {
+    height: 1.875rem;
+    width: 600px;
+    gap: 1.875rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.sub-menu {
+    height: 100%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-menu #name {
+    width: auto;
+    height: 1.5rem;
+}
+
+.ref-link {
+    font-size: 14px;
+    /* 18px */
+    font-weight: 400;
+    line-height: 1.5rem;
+    /* 24px */
+    font-family: helvetica;
+    color: black;
+}
+
+.sub-menu #highlight {
+    width: 2.3125rem;
+    /* 37px */
+    height: 0.125rem;
+    /* 2px */
+    background-color: #77121A;
+}
+
+.btn-div {
+    height: 35px;
+    /* 44px */
+    width: 150px;
+    /* 170px */
+    background-color: #D63321;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    /* 8px */
+}
+
+.btn-div button {
+    height: 100%;
+    width: 97%;
+    border: 0;
+    border-radius: 0.5rem;
+    /* 8px */
+    background-color: #77121A;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 14px;
+    /* 16px */
+    font-weight: 900;
+    font-family: 'helvetica';
+}
+
+.btn-div div {
+    background-image: url('../assets/arrow-right.png');
+    height: 1.5rem;
+    /* 24px */
+    width: 1.5rem;
+    /* 24px */
+}
+.ref-link{
+    text-decoration: none;
+}
+.con-div.active{
+    display: block;
+
+   
+}
+
+@media (min-width: 1200px){
+    .email2-con{
+        width: auto;
+        gap:10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .menu-div {
+        display: none;
+      
+    }
+
+    .con-div.active-con .menu-div {
+        display: block;
+       
+    }
+
+    .btn-div {
+        display: none;
+        
+    }
+    .title-contain{
+        align-items: unset;
+        flex-direction: row;
+        justify-content: center;
+        gap: 70px;
+        position: relative;
+    }
+}
+
+@media (min-width: 1200px){
+    .date-div{
+        width: auto;
+    }
+    .con-contain{
+        gap: 90px;
+    }
+}
+
+@media (max-width: 1200px){
+    .navbar {
+            min-height: unset;
+        }
+    .con-contain{
+        width: auto;
+        justify-content: unset;
+        gap:53px;
+        margin-bottom: 12px;
+    }
+}
+
+@media(max-width:1100px){
+        .con-contain{
+            gap: 3rem;
+        }
+        .menu-div{
+            gap: 1.5rem;
+            width: auto;
+        }
+        .date-div{
+            font-size: 14px;
+        }
+}
+
+@media(max-width:995px){
+    .con-contain {
+        gap: 2.5rem;
+        }
+    
+    .menu-div {
+        gap: 0.7rem;
+        }
+    .date-div{
+        width: auto;
+        font-size: 13px;
+    }
+    .btn-div button{
+        font-size: 13px;
+    }
+    .btn-div{
+        height: 31px;
+        width: 130px;
+    }
+}
+
+@media(max-width:878px){
+    .navbar{
+        min-height: unset;
+    }
+    .con-contain{
+        gap: 23px;
+    }
+        .ref-link{
+            font-size: 12px;
+        }
+}
+
+@media (max-width: 791px){
+    .date-div{
+        font-size: 11px;
+    }
+}
+@media (max-width: 768px){
+    .navbar{
+        height: auto;
+        min-height: unset;
+        justify-self: center;
+        box-shadow: 0.0625rem 0.25rem 0.25rem 0 #DBDBDB40 inset;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .sub-menu{
+       padding: 6px;
+    }
+    .con-div{
+        flex-direction: column;
+    }
+    .burger{
+        margin-left: 15px;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+    }
+
+    .con-contain{
+        width: 100%;
+        flex-direction: column-reverse;
+        gap: 10px;
+        justify-content: unset;
+        align-items: unset;
+        margin-top: 5px;
+    }
+    .date-div{
+        font-size: 11px;
+    }
+    .menu-div{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+        gap: 5px;
+    }  
+    #logo-div{
+        width: 25px;
+        height: 20px;
+    }
+    #text-div{
+            height: 18px;
+            width: 127px;
+    }
+
+
+
+
+
+}
+
+@font-face {
+    font-family: 'helvetica';
+    src: url('../fonts/HelveticaNeueLight.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'barlow';
+    src: url('../fonts/Barlow-SemiBoldItalic.ttf') format('truetype');
+}

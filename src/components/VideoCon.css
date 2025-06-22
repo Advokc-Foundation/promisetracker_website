@@ -1,0 +1,248 @@
+.vid-con {
+  height: 950px;
+  width: 100vw;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.en-icon {
+  width: 100%;
+  height: 100%;
+}
+
+.inner-vid1 {
+  height: 17%;
+  width: 100%;
+  display: flex;
+}
+
+.vid1-wrap {
+  width: 35%;
+  height: 30%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.browse-div p {
+  font-size: 15px;
+  line-height: 16px;
+  font-family: "inter";
+  font-weight: 700;
+}
+.browse-arrow {
+  background-image: url("../assets/Arrowup-right.png");
+  height: 16px;
+  width: 16px;
+  margin-left: 5px;
+}
+.inner-vid2 {
+  height: 83%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-player-outer {
+  height: 90%;
+  width: 75%;
+  background-color: #0c1821;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+}
+
+.video-player-inner {
+  height: 90%;
+  width: 70%;
+}
+
+.vid-title {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "hel";
+  font-size: 30px;
+  font-weight: 300;
+  color: white;
+}
+.vid-words {
+  height: 5%;
+  width: 100%;
+  font-family: "hel-ord";
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "inter";
+  line-height: 12px;
+  color: #bbbbbb;
+  text-align: center;
+}
+.vid-words span {
+  margin-left: 35px;
+}
+
+.link-email {
+  text-decoration: none;
+  width: 100%;
+  color: #77121a;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.vid-player {
+  height: 75%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.vid-player #layer1 {
+  height: 90%;
+  width: 95%;
+  background-color: white;
+  border-radius: 30px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.main-vid-player {
+  height: 96%;
+  width: 97%;
+  background-color: black;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../assets/VidCv.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.player-icon {
+  width: 70px;
+  height: 70px;
+  background-image: url("../assets/Player.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #0c1821;
+  border-radius: 50%;
+}
+.player-icon:hover {
+  cursor: pointer;
+  height: 75px;
+  width: 75px;
+  transition-duration: 0.5s;
+}
+
+.vid-btn {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.vid-btn button {
+  height: 50px;
+  width: 145px;
+  font-family: "hel-ord";
+  line-height: 20px;
+  color: white;
+  border: 0px;
+  border-radius: 12px;
+  background-color: #77121a;
+}
+.vid-btn button:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 1100px) {
+  .video-player-outer {
+    width: 70%;
+  }
+}
+
+@media (max-width: 941px) {
+  .vid-title {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 784px) {
+  .video-player-inner {
+    width: 80%;
+  }
+}
+@media (max-width: 686px) {
+  .vid-title {
+    font-size: 23px;
+  }
+}
+
+@media (max-width: 631px) {
+  .vid-con {
+    width: 100vw;
+  }
+  .inner-vid1 {
+    height: 10%;
+    display: flex;
+    align-items: center;
+  }
+  .vid1-wrap {
+    margin-top: 0px;
+    width: 100%;
+    justify-content: unset;
+    margin-left: 10px;
+  }
+  .browse-div p {
+    font-size: 13px;
+  }
+  .video-player-outer {
+    width: 100%;
+    border-radius: 0px;
+  }
+  .video-player-inner {
+    width: 90%;
+  }
+  .vid-title {
+    font-size: 20px;
+  }
+  .vid-words span {
+    margin: 30px;
+  }
+  .vid-words {
+    font-size: 11px;
+  }
+}
+
+@font-face {
+  font-family: "inter";
+  src: url("../fonts/Inter-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "hel";
+  src: url("../fonts/HelveticaNeueMedium.otf") format("opentype");
+}
+@font-face {
+  font-family: "hel-ord";
+  src: url("../fonts/HelveticaNeueLight.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "bodoni-bold";
+  src: url("../fonts/bodoni-72-bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "bodoni-itl";
+  src: url("../fonts/Bodoni-Italic.otf") format("opentype");
+}

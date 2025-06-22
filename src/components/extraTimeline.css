@@ -1,0 +1,27 @@
+.starter-date {
+  font-family: "hel-ord";
+  font-size: 12px;
+  color: rgb(160, 155, 155);
+}
+
+@font-face {
+  font-family: "inter";
+  src: url("../fonts/Inter-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "hel";
+  src: url("../fonts/HelveticaNeueMedium.otf") format("opentype");
+}
+@font-face {
+  font-family: "hel-ord";
+  src: url("../fonts/HelveticaNeueLight.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "bodoni-bold";
+  src: url("../fonts/bodoni-72-bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "bodoni-itl";
+  src: url("../fonts/Bodoni-Italic.otf") format("opentype");
+}

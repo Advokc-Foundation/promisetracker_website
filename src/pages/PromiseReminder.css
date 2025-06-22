@@ -1,0 +1,236 @@
+.remind-con{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+   
+}
+
+.remind-inner{
+    width: 77%;
+    height: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-bottom: 60px;
+
+}
+
+
+.pr-reminder-head{
+    height: 380px;
+    width: 100%;
+    background:linear-gradient(165.81deg, #B5FDD2 24.08%, #A1E1D5 125.5%, #57BE80 192.93%);
+    border-radius: 20px;
+    display: flex;
+    align-items: end;
+} 
+
+.pr-reminder-tl{
+    height:230px;
+    width: auto;
+    display: flex;
+    align-items: center;
+
+}
+
+.detals{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 30px;
+    width: auto;
+}
+
+.activeopt{
+    background-color: #77121A;
+    color: white !important;
+}
+
+.tl4{
+    font-family: 'bodoni-bold';
+    font-size: 75px;
+}
+
+.tl4 span{
+    font-family: 'bodoni-itl';
+    letter-spacing: -1px;
+}
+.tl5{
+    width: 55%;
+    color: #3B3B3B;
+    font-family: 'hel-ord';
+    font-size: 15px;
+}
+
+
+.child-con-pr{
+ width: 100%;
+ height: auto;
+ display: flex;
+ flex-direction: column;
+ gap: 30px;
+}
+
+.toggler{
+    height: 37px;
+    width: auto;
+    display: flex;
+    gap: 8px;
+}
+
+.toggler div{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    font-family: 'hel-ord';
+    font-size: 14px;
+    color: #6F6F6F;
+    border: #CCCCCC 1px solid;
+    border-radius: 70px;
+    padding-left: 16px;
+    padding-right: 16px;
+
+}
+
+.toggler div:hover{
+    cursor: pointer;
+}
+
+.reminder-pr-child-con{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 29px;
+}
+
+.pagination1 {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+
+}
+
+.pagination1 button {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    color: #333;
+    padding: 10px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+
+}
+
+.pagination1 button:hover {
+    background-color: #ddd;
+    color: #000;
+
+}
+
+.pagination1 button.active1 {
+    background-color: #5F1016;
+    color: white;
+    border-color: #5F1016;
+    cursor: default;
+}
+
+.pagination button:disabled {
+    background-color: #e9ecef;
+    color: #6c757d;
+    cursor: not-allowed;
+    border-color: #e9ecef;
+}
+
+
+
+@font-face {
+    font-family: 'inter';
+    src: url('../fonts/Inter-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'hel';
+    src: url('../fonts/HelveticaNeueMedium.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'hel-ord';
+    src: url('../fonts/HelveticaNeueLight.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'bodoni-bold';
+    src: url('../fonts/bodoni-72-bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'bodoni-itl';
+    src: url('../fonts/Bodoni-Italic.otf') format('opentype');
+}
+
+@media (max-width: 602px){
+    .pr-reminder-head{
+        align-items: center;
+    }
+    .tl4{
+        font-size: 60px;
+        line-height: 60px;
+    }
+    .pr-reminder-tl{
+        width: 100%;
+    }
+}
+
+@media (max-width:1010px){
+  .tl4{
+    font-size: 60px;
+  }
+}
+
+@media (max-width:770px){
+    .tl4{
+        font-size: 50px;
+    }
+}
+
+
+
+@media(max-width:750px){
+    .reminder-pr-child-con{
+        justify-content: center;
+    }
+}
+
+@media(max-width:750px){
+    .toggler{
+        flex-direction: column;
+        height: auto
+
+    }
+    .toggler div{
+        padding-top: 16px;
+        padding-bottom: 16px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+@media(max-width:602px){
+    .tl4{
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .detals{
+        gap: 5px;
+    }
+}
+
+@media(max-width:946px){
+
+}

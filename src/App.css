@@ -1,0 +1,26 @@
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+.adokv{
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width:995px){
+  .adokv{
+    overflow-x: clip;
+  }
+}
+
+@media (max-width:768px) {
+  .adokv {
+    height: auto;
+    width: 100%;
+    overflow-x: clip;
+  }
+
+}
+

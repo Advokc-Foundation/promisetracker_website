@@ -1,0 +1,85 @@
+.modalOuter{
+    height: 20%;
+    width: 400px;
+    background-color: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index:1000;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.dis-text3{
+    font-family:'hel-ord' ;
+    font-size: 17px;
+    text-align: center;
+    line-height: 22px;
+}
+
+.modal-link{
+    text-decoration: none;
+    color: red;
+}
+.modal-link:hover{
+    cursor: pointer;
+}
+
+@media(max-width:460px){
+    .modalOuter{
+        width: 300px;
+    }
+    .dis-text3{
+        font-size:15px;
+        line-height:18px ;
+    }
+}
+
+@media(max-width:346px) {
+    .modalOuter {
+        width: 250px;
+    }
+
+    .dis-text3 {
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
+@font-face {
+    font-family: 'hel';
+    src: url('../fonts/HelveticaNeueMedium.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'hel-ord';
+    src: url('../fonts/HelveticaNeueLight.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'bodoni-bold';
+    src: url('../fonts/bodoni-72-bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'bodoni-itl';
+    src: url('../fonts/Bodoni-Italic.otf') format('opentype');
+}

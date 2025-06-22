@@ -1,0 +1,10 @@
+.promiseNigeria:hover{
+    cursor: pointer;
+}
+
+@media (max-width:608px){
+    .promiseNigeria{
+        height: auto;
+        width: auto;
+    }
+}

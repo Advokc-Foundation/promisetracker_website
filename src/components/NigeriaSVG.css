@@ -1,0 +1,9 @@
+.Ng-svg:hover{
+    cursor: pointer;
+}
+@media (max-width: 608px){
+    .Ng-svg{
+        height: auto;
+        width: 85%;
+    }
+}

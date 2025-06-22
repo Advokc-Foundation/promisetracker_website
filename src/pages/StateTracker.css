@@ -1,0 +1,425 @@
+.state-con{
+    height: auto;
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+}
+.little-div{
+    height: 25px;
+    width: auto;
+    position:absolute;
+    z-index: -3;
+    display: flex;
+    gap: 7px;
+}
+.lil-title{
+    width: 80px;
+    height: 100%;
+    background-color: #77121A;
+    border-radius: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'hel-ord' ;
+    font-size:12px ;
+    line-height:12px ;
+    color: white ;
+}
+
+.lil-icon{
+    width: 27px;
+    height: 27px;
+    background-image: url('../assets/location2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.state-title{
+    height: 170px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-st-con{
+    height: 63%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.st-title-inner{
+        font-family: 'bodoni-bold';
+        font-size: 54px;
+        color: #000000;
+        letter-spacing: -2px;
+}
+
+.st-title-inner span{
+    font-family: 'bodoni-itl';
+}
+
+
+
+.st-explain{
+    font-family:'hel-ord' ;
+    font-size:15px ;
+    color: #8F8F8F;
+    line-height: 19px;
+    text-align: center;
+}
+
+.map-container{
+    position: relative;
+    height: 950px;
+    width: 100vw;
+    background-color:#0C1821;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.state-view{
+    position: absolute;
+    height: 60px;
+    width: 158px;
+    bottom:55px;
+    left: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 14px;
+    border: 1px solid #D63321;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.state-name{
+    height: 100%;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:15px ;
+    font-family:'hel-ord' ;
+    line-height:20px ;
+    letter-spacing: -1%;
+    text-wrap: nowrap;
+}
+.state-view #state-view-con{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.gov-con{
+    height:167px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.gov-con-inner{
+    height:100%;
+    width: 80%;
+    display: flex;
+    align-items: end;
+}
+.gov-d{
+    height: 72%;
+    width: 33%;
+    background-color: #FFF2F2;
+    display: flex;
+   align-items: center;
+   gap: 12px;
+   border: 1.5px solid #77121A;
+   border-radius: 13px;
+}
+.gov-img{
+    height: 75px;
+    width: 75px;
+    background-color: black;
+    border-radius: 50%;
+    margin-left: 30px;
+    background-image: url('../assets/gov-soludo.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.states-display{
+    height: 100px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    gap: 10px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scrollbar-color: #888 #eee;
+}
+
+.states-display .st-view.previous-active {
+    border: 1px solid #0C1821;
+    color: #0C1821;
+  
+}
+
+
+.st-view{
+        height: 40px;
+        width: auto;
+        display: flex;
+        flex-direction: row;
+        border-radius: 14px;
+        border: 1px solid #A8A8A8;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        padding-left: 14px;
+        padding-right: 14px;
+        gap: 10px;
+        color: #A8A8A8;
+        
+}
+
+.st-view:hover{
+    cursor: pointer;
+}
+
+.st-view #state-view-con {
+    width: 50px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.activeST{
+    background-color: #111E28;
+    color: #FFFFFF;
+}
+
+.gov-naming{
+    height:67px;
+    width: 205px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.gov-naming #text1{
+    font-family: 'hel';
+    font-size: 18px;
+    line-height: 20px;
+}
+.gov-naming #text2{
+    font-family:"hel-ord";
+    font-size: 13px;
+    line-height: 16px;
+}
+
+
+
+
+
+@media (min-width:1201px) {
+
+}
+
+@media (max-width:1200px) {
+   
+    .state-title{
+        height: auto;
+      
+    }
+    .title-st-con{
+        gap: 20px;
+        flex-direction: column;
+        padding-top: 25px;
+        padding-bottom: 20px;
+        width: 80%;
+    }
+  
+}
+
+
+@media (max-width:916px) {
+
+    .st-explain {
+        width: 80%;
+        }
+
+
+}
+
+@media (max-width:1010px) {
+ 
+    .gov-d{
+        width: 40%;
+    }
+   
+
+}
+@media (max-width:882px) {
+
+    .gov-d {
+        width: 50%;
+    }
+
+
+}
+@media (max-width:730px) {
+
+    .gov-d {
+        width: 60%;
+    }
+
+
+}
+
+@media (max-width:608px){
+    .statesvg-con{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .map-container{
+        flex-direction: column;
+        height: auto;
+        align-items: unset;
+        gap: 30px;
+        padding-top: 40px;
+        padding-bottom: 20px;
+        border-radius: 10px;
+    }
+    .state-view{
+        position: unset;
+        padding: unset;
+        margin-left: 20px;
+        width: 140px;
+        justify-content: unset;
+    }
+    .state-name{
+        font-size: 16px;
+    }
+    .gov-con{
+        height: auto;
+        margin-top: 30px;
+        padding-bottom: 10px;
+        
+    }
+    .gov-con-inner{
+        width: 90%;
+        height: 120px;
+        align-items: unset;
+    }
+    .gov-d{
+        height: 100%;
+        width: 100%;
+    }
+    .state-title{
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .title-st-con{
+        height: auto;
+        width: 90%;
+    }
+
+    .st-title-inner{
+        font-size: 28px;
+        letter-spacing: -1px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .st-explain{
+        font-size: 14px;
+        text-align: center;
+    }
+    .st-explain span{
+        margin: 0px;
+    }
+  
+
+
+
+
+
+}
+
+@font-face {
+    font-family: 'inter';
+    src: url('../fonts/Inter-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'hel';
+    src: url('../fonts/HelveticaNeueMedium.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'hel-ord';
+    src: url('../fonts/HelveticaNeueLight.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'bodoni-bold';
+    src: url('../fonts/bodoni-72-bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'bodoni-itl';
+    src: url('../fonts/Bodoni-Italic.otf') format('opentype');
+}
+
+
+.loading-overlay2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    pointer-events: all;
+
+
+}
+
+.spinner2 {
+    width: 40px;
+    height: 40px;
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-top-color: #333;
+    border-radius: 50%;
+    animation: spin 5s linear infinite;
+}
+
+.outer-things1 {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    background-color: white;
+    z-index: 100;
+}
+
+.rest-cn{
+    position: relative;
+}

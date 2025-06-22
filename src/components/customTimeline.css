@@ -1,0 +1,63 @@
+.line-container {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.line {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: gray;
+
+}
+
+.circle1 {
+  
+    width: 10px;
+    height:10px;
+    border-radius: 50%;
+    background-color: gray;
+    
+    
+}
+
+.con-tin{ 
+    position: absolute;
+    bottom: 4%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.wick{
+        height: 20px;
+        width: 1px;
+        background-color: gray;
+        
+}
+
+.status-cir{
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background-color: blue;
+    left:50px;
+    position: absolute;
+    z-index: 2;
+}
+
+.main-status-cir {
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background-color: blue;
+    position: absolute;
+    left: 150px;
+    z-index: 2;
+}

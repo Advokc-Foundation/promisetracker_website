@@ -1,0 +1,318 @@
+.legis-con{
+    height: auto;
+    width: 100vw;
+}
+
+.legis-title {
+    height: 170px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-lg-con {
+    height: 63%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.lg-title-inner {
+    font-family: 'bodoni-bold';
+    font-size: 54px;
+    color: #000000;
+    letter-spacing: -2px;
+}
+
+.lg-title-inner span {
+    font-family: 'bodoni-itl';
+}
+
+
+
+.lg-explain {
+    font-family: 'hel-ord';
+    font-size: 15px;
+    color: #8F8F8F;
+    line-height: 19px;
+    text-align: center;
+}
+
+.lg-explain span {
+    margin-left: 20px;
+}
+
+.legis-display{
+    height: 204px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.legis-display-inner{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.assembly-con{
+    height: 48%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+
+}
+.assembly-div{
+    height: 100%;
+    width: 340px;
+    background-color: #D7FCDB;
+    display: flex;  
+    flex-direction: row;
+    align-items: center; 
+    gap: 13px;
+    border-radius: 14px;
+
+}
+
+.assembly-icon{
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    margin-left: 15px;
+    background-image: url('../assets/National-Assembly.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.assembly-details{
+    height: 55px;
+    width: 230px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+.assembly-details #p1{
+    font-family:'Bodoni-bold' ;
+    font-size:18px ;
+    line-height:20px ;
+}
+.assembly-details #p2{
+        font-family: 'hel-ord';
+        font-size: 12px;
+        line-height: 14px;
+}
+
+.assembly-div:hover{
+    cursor: pointer;
+}
+.diff-con {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+
+}
+.senate-con{
+    height: 100%;
+    width: 130px;
+    background-color: #111E280D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    border-radius: 14px;
+}
+.senate-icon{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-image: url('../assets/seal-senate.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.rep-icon {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-image: url('../assets/seal-house-rep.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.senate-text{
+    font-size: 18px;
+    font-family:'hel-ord';
+    line-height:20px;
+}
+
+.legislative-con {
+    height: 100%;
+    width: 270px;
+    background-color:#111E280D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    border-radius: 14px;
+}
+.activeHouse{
+    background-color: #F9E5E5;
+}
+
+.legislative-con:hover, .senate-con:hover,.assembly-details:hover{
+    cursor: pointer;
+}
+
+@media (min-width:1201px) {
+    .legis-title {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width:1200px){
+        .legis-title{
+            margin-bottom: 30px;
+        }
+}
+
+
+@media (max-width:916px){
+
+    .assembly-div{
+        width: 50%;
+    }
+
+
+
+}
+
+@media (max-width:900px){
+    .lg-title-inner{
+        font-size: 40px;
+    }
+    .lg-explain{
+        text-align: center;
+        width: 100%;
+
+    }
+    .lg-explain span{
+        margin: unset;
+    }
+    .title-lg-con{
+            height: auto;
+            width: 70%;
+            gap: 20px;
+    }
+
+}
+
+
+@media (max-width:608px){
+
+    .legis-title{
+        height: auto;
+    }
+    .title-lg-con{
+        height: auto;
+        width: 90%;
+        margin-bottom: 30px;
+    }
+    .lg-title-inner{
+        font-size: 28px;
+        line-height: 22px;
+        letter-spacing: -1px;
+    }
+    .lg-title-inner span{
+        line-height: 75px;
+    }
+    .lg-explain{
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+    }
+    .legis-display{
+        height: auto;
+    }
+    .legis-display-inner{
+        height: auto;
+        width: 90%;
+        justify-content: unset;
+
+    }
+    .assembly-con{
+        height: auto;
+        flex-direction: column;
+        gap: 15px;
+        margin-bottom: 25px;
+    }
+    .assembly-div{
+        width: 100%;
+        height: 100px;
+    }
+    .assembly-details #p2{
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .assembly-details{
+        height: auto;
+        justify-content: unset;
+        gap: 8px;
+    }
+    .diff-con{
+        flex-direction: column;
+        height: auto;
+        gap: 10px;
+        align-items: center;
+        
+    }
+    .senate-con,.legislative-con{
+        height: 70px;
+    }
+
+
+
+
+}
+
+
+
+
+
+
+@font-face {
+    font-family: 'inter';
+    src: url('../fonts/Inter-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'hel';
+    src: url('../fonts/HelveticaNeueMedium.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'hel-ord';
+    src: url('../fonts/HelveticaNeueLight.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'bodoni-bold';
+    src: url('../fonts/bodoni-72-bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'bodoni-itl';
+    src: url('../fonts/Bodoni-Italic.otf') format('opentype');
+}

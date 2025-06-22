@@ -1,0 +1,128 @@
+.glance-con {
+  height: 260px;
+  width: 100%;
+  background-color: #77121a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.glance-con #con1 {
+  height: 30%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  font-family: "bodoni-bold";
+  line-height: 25px;
+  font-size: 35px;
+  color: white;
+}
+.con1-span {
+  font-family: "bodoni-itl";
+}
+.glance-con #con2 {
+  height: auto;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "hel-ord";
+  font-size: 16px;
+  color: #e2949a;
+  line-height: 20px;
+  text-align: center;
+}
+
+.glance-con #con3 {
+  height: 45%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.inner-con3 {
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.inner-con3 #con3-title {
+  color: #e2949a;
+  font-family: "hel-ord";
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  height: 30%;
+  width: 100%;
+}
+.inner-con3 #con3-count {
+  font-family: "hel";
+  color: white;
+  height: 70%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  justify-content: center;
+}
+
+@media (max-width: 631px) {
+  .glance-con {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .glance-con #con1 {
+    font-size: 18px;
+    height: 20%;
+  }
+
+  .glance-con #con2 {
+    font-size: 11px;
+    line-height: 15px;
+  }
+  .glance-con #con3 {
+    width: 90%;
+    gap: 10px;
+  }
+  .inner-con3 #con3-title {
+    font-size: 10px;
+    height: auto;
+    text-align: center;
+  }
+  .inner-con3 #con3-count {
+    font-size: 18px;
+  }
+  .inner-con3 {
+    align-items: center;
+  }
+}
+
+@font-face {
+  font-family: "inter";
+  src: url("../fonts/Inter-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "hel";
+  src: url("../fonts/HelveticaNeueMedium.otf") format("opentype");
+}
+@font-face {
+  font-family: "hel-ord";
+  src: url("../fonts/HelveticaNeueLight.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "bodoni-bold";
+  src: url("../fonts/bodoni-72-bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "bodoni-itl";
+  src: url("../fonts/Bodoni-Italic.otf") format("opentype");
+}
